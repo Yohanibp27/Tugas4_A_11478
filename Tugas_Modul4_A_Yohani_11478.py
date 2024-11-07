@@ -64,7 +64,7 @@ for model_name, path in model_paths.items():
         st.write(f"Model {model_name} tidak ditemukan di path: ", path)
 
 # Sidebar untuk memasukkan (meng-inputkan) nilai untuk titik baru yang akan diprediksi clusternya
-avg_CL = st.sidebar.number_input("Average Credit Limit", 0, 1000000)
+avg_CL = st.sidebar.number_input("Average Credit Limit", 0, 100000)
 sum_CC = st.sidebar.number_input("Total Credit Cards", 0, 10)
 sum_VO = st.sidebar.number_input("Total Visits Online", 0, 16)
 
